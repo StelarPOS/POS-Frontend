@@ -1,5 +1,6 @@
 # StellarPOS Frontend 🌟
 
+[![Live Demo](https://img.shields.io/badge/Live_Demo-stellarpos.netlify.app-00C7B7.svg?logo=netlify&logoColor=white)](https://stellarpos.netlify.app/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 [![React](https://img.shields.io/badge/React-18.3-61dafb.svg?logo=react&logoColor=black)](https://reactjs.org/)
 [![Vite](https://img.shields.io/badge/Vite-5.4-646CFF.svg?logo=vite&logoColor=white)](https://vitejs.dev/)
@@ -7,6 +8,8 @@
 [![Stellar Network](https://img.shields.io/badge/Stellar-Testnet-08B5E5.svg?logo=stellar&logoColor=white)](https://stellar.org)
 
 > **Modern, high-performance Point-of-Sale (POS) interface enabling merchants to accept USDC and XLM payments with instant finality on the Stellar blockchain.**
+
+🌐 **Live Application**: **[https://stellarpos.netlify.app](https://stellarpos.netlify.app)**
 
 ---
 
@@ -60,7 +63,9 @@ frontend/
 │   ├── main.jsx              # Entry point
 │   └── index.css             # Tailwind base & utilities
 ├── public/
+│   └── _redirects            # Netlify SPA redirect
 ├── index.html
+├── netlify.toml              # Netlify build configuration
 ├── tailwind.config.js
 ├── vite.config.js
 └── package.json
